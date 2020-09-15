@@ -72,4 +72,35 @@ Our model should be well calibrated for both test and train set, this is so that
 
 ![](images/sets.png)
 
+## Features
+It's important to select appropriate categorical, continuous and derived features and how to choose the right feature for the right model.
+After data features is the most impactful for a ML model.
+> Data has larger but slower iteration cycle
+> Features has smaller but faster iteration cycle
 
+![](images/features.png)
+
+##### Types of Features
+1. Categorical
+2. Continuous
+3. Derived
+
+![](images/hypo.png)
+
+![](images/cycle.png)
+
+## Model
+To choose the right model for your data and find the algorithm to implement and train that model is equally important 
+* How to pick a model
+* How to tune a model
+* How to compare models
+
+![](images/point.png)
+
+#### Tuning Hyperparameters
+
+![](images/hyper.png)
+
+#### We can also use Linear model for Non linear data 
+
+![](images/multilinear.png)
