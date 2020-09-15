@@ -53,13 +53,13 @@ Before jumping into developing more features and iterating on model architecture
 #### Analysis of data
 ![](images/Analysis.png)
 
-##### Offline vs Online Evaluation
+### Offline vs Online Evaluation
 
 ![](images/offon.png)
 
 ![](images/eval.png)
 
-#### Calibration of Model:
+## Calibration of Model:
 
 Basically Calibration is equal to (Sum of Predictions/Sum of Labels)
 
@@ -80,7 +80,7 @@ After data features is the most impactful for a ML model.
 
 ![](images/features.png)
 
-##### Types of Features
+## Types of Features
 1. Categorical
 2. Continuous
 3. Derived
@@ -97,10 +97,16 @@ To choose the right model for your data and find the algorithm to implement and 
 
 ![](images/point.png)
 
-#### Tuning Hyperparameters
+## Tuning Hyperparameters
 
 ![](images/hyper.png)
 
-#### We can also use Linear model for Non linear data 
+## We can also use Linear model for Non linear data 
 
 ![](images/multilinear.png)
+
+
+# Thanks to Facebook Research Team
+> Refer Complete Guide at : https://research.fb.com/blog/2018/05/the-facebook-field-guide-to-machine-learning-video-series/
+
+![](images/fb.png)
