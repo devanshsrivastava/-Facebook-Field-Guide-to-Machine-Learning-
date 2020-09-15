@@ -30,3 +30,46 @@ Things to be taken care of:
 ![](images/Label.png)
 
 ![](images/Factors.png)
+
+### Understanding and Preparing Data
+So basically preparing the training data is a core part of a machine learning project. It’s an active not passive part of machine learning research and is one of the most powerful variables to create high-quality machine learning systems
+
+3 key areas to pay attention to :
+
+1. Data recency and real time training
+2. Training/Prediction consistency
+3. Records and Sampling
+
+So if the data is static then there is no problem but issue arises when there is dynamic data. Like some data points are collected on the frontend whereas many features are due to offline model pf application. Also data like uploading of pictures at different time from different place leads to very varying data. Also there is significant change in yearly data as data speeds, connections and likings are changing every day.
+
+![](images/Record.png)
+
+![](images/Accuracy.png)
+
+### Evaluation of Model's Performance
+
+Before jumping into developing more features and iterating on model architectures, it’s important to have a clear plan for how to evaluate the performance of your model. 
+
+#### Analysis of data
+![](images/Analysis.png)
+
+##### Offline vs Online Evaluation
+
+![](images/offon.png)
+
+![](images/eval.png)
+
+#### Calibration of Model:
+
+Basically Calibration is equal to (Sum of Predictions/Sum of Labels)
+
+Our model should be well calibrated for both test and train set, this is so that the average prediction matches the average response rate.
+> If model is under or over calibrated on test data, this means model doesn't generalise well to new data and is overfitting
+
+![](images/calibration.png)
+
+### Dividing into smaller sets and then evaluating
+
+![](images/sets.png)
+
+
