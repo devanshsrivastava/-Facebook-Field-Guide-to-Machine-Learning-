@@ -1,7 +1,7 @@
 # Facebook Field Guide to Machine-Learning
 So this is a guide to best real-world practices and provides practical tips about how to apply machine-learning capabilities to real-world problems.
 
-![](ml-path.png)
+![](images/ml-path.png)
 
 If you are using machine learning to enhance your product in the real world, it’s important to understand how the entire development process works not just running the models.
 
@@ -27,6 +27,6 @@ Things to be taken care of:
 3. Define your label and training example precisely
 4. Don't prematurely optimize
 
-![](Label.png)
+![](images/Label.png)
 
-![](Factors.png)
+![](images/Factors.png)
